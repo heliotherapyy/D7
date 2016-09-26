@@ -4,7 +4,7 @@
   "description": "Do something every single day",
   "main": "index.js",
   "scripts": {
-    "start": "node build/server.js",
+    "start": "node ./node_modules/gulp/bin/gulp.js",
     "test": "node ./node_modules/nodemon/bin/nodemon.js build/server.js",
     "webpack-watch": "node ./node_modules/webpack/bin/webpack.js --progress --colors --watch",
     "webpack-hot": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot --inline --content-base client/",
